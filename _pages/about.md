@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I am currently a Ph.D. candidate at **University of Wisconsin-Madison**, advised by [Reid C. Van Lehn](https://vanlehngroup.che.wisc.edu/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests include modeling conformational dynamics and binding energetics using machine learning and molecular dynamics simulations, with applications in bioorganic chemistry and therapeutic discovery.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I received my B.S. in Biological Sciences at **Seoul National University**. I performed thermodynamic & structural study of binding patterns of intrinsically idsordered proteins with [Junseock Koh](https://biosci.snu.ac.kr/jkoh). Also, I experienced wide and deep research in regenerative medicine under [Jin-Hong Kim](https://www.mrmlab.org/) and microbial physiology under [Yeong-Jae Seok](https://biosci.snu.ac.kr/lomp).
