@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "CV up-to-date for 2026.03.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "news-bioinspired-design-rules-for-flipping-across-the-lipid-bilayer-from-systematic-simulations-of-membrane-protein-segments-is-now-published-in-the-msde",
           title: 'Bioinspired design rules for flipping across the lipid bilayer from systematic simulations of...',
           description: "",
