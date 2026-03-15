@@ -33,7 +33,7 @@ ninja.data = [{
         },{id: "news-bioinspired-design-rules-for-flipping-across-the-lipid-bilayer-from-systematic-simulations-of-membrane-protein-segments-is-now-published-in-the-msde",
           title: 'Bioinspired design rules for flipping across the lipid bilayer from systematic simulations of...',
           description: "",
-          section: "News",},{id: "news-i-m-looking-forward-to-giving-an-oral-presentation-at-the-2025-aiche-annual-meeting-in-boston-if-you-re-attending-aiche-or-will-be-in-the-boston-area-feel-free-to-reach-out-i-d-love-to-grab-coffee-and-chat-about-protein-modeling-molecular-simulations-and-ai-driven-drug-design",
+          section: "News",},{id: "news-i-m-looking-forward-to-giving-an-oral-presentation-at-the-2025-aiche-annual-meeting-in-boston",
           title: 'I’m looking forward to giving an oral presentation at the 2025 AIChE Annual...',
           description: "",
           section: "News",},{id: "news-masif-pmp-is-now-published-in-the-journal-of-chemical-information-and-modeling",
