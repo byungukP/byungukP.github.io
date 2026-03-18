@@ -109,6 +109,10 @@ collections:
     defaults:
       layout: post
     output: true
+  talks:
+    defaults:
+      layout: post
+    output: true
   projects:
     output: true
   teachings:
@@ -270,6 +274,7 @@ filtered_bibtex_keywords:
     annotation,
     arxiv,
     award,
+    awarded,
     award_name,
     bibtex_show,
     blog,

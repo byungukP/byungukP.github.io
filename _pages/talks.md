@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Talks
-permalink: /news/
+permalink: /talks/
+nav: true
+nav_order: 4
 ---
 
-{% include news.liquid %}
+{% include talks.liquid %}

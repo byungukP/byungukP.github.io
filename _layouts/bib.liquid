@@ -187,9 +187,11 @@
       {{ entry.note | strip }}
     </div>
 
+    {% assign award_text = entry.award | default: entry.awarded %}
+
     <!-- Links/Buttons -->
     <div class="links">
-      {% if entry.award %}
+      {% if award_text %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>
@@ -362,10 +364,10 @@
       {% endif %}
     {% endif %}
 
-    {% if entry.award %}
+    {% if award_text %}
       <!-- Hidden Award block -->
       <div class="award hidden d-print-inline">
-        <p>{{ entry.award | markdownify }}</p>
+        <p>{{ award_text | markdownify }}</p>
       </div>
     {% endif %}
 
