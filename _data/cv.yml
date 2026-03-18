@@ -1,189 +1,235 @@
 cv:
-  # name: Albert Einstein
-  # label: Scientist
-  # email: einstein@example.com
-  # location: Princeton, NJ
-  # image: ""
-  # summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: ""
+  label: ""
+  email: bpark74@wisc.edu
+  location: Madison, WI
+  image: ""
+  summary: I develop physically grounded machine learning methods for biomolecular systems, with interests spanning geometric deep learning, generative modeling, and molecular dynamics. My work focuses on characterizing protein conformational landscapes and designing physically feasible proteins under structural or functional constraints, grounded in rigorous simulation-based validation.
 
-  # social_networks:
-  #   - network: X
-  #     username: AlbertEinstein
-  #   - network: GitHub
-  #     username: example
-  #   - network: LinkedIn
-  #     username: example
+  social_networks:
+    - network: X
+      username: AlbertEinstein
+    - network: GitHub
+      username: example
+    - network: LinkedIn
+      username: example
 
-  # address:
-  #   street: 2712 Broadway St
-  #   city: San Francisco
-  #   region: California
-  #   postalCode: CA 94115
-  #   countryCode: US
+  address:
+    street: ""
+    city: ""
+    region: ""
+    postalCode: ""
+    countryCode: ""
 
-  # sections:
-  #   Education:
-  #     - institution: University of Zurich
-  #       location: Zurich, Switzerland
-  #       url: https://www.uzh.ch/
-  #       area: Physics
-  #       studyType: PhD
-  #       start_date: 1900
-  #       end_date: 1905
-  #       score: ""
-  #       courses: "Theory of Relativity"
-  #       highlights:
-  #         - Description 1.
-  #         - Description 2.
+  sections:
+    Education:
+      - institution: University of Wisconsin–Madison
+        location: Madison, WI, US
+        url: ""
+        area: Biophysics
+        studyType: PhD
+        start_date: 2021
+        end_date: 2026
+        score: ""
+        courses: ""
 
-  #     - institution: Eidgenössische Technische Hochschule
-  #       location: Zurich, Switzerland
-  #       area: Physics
-  #       studyType: Federal teaching diploma
-  #       start_date: 1896
-  #       end_date: 1900
-  #       highlights:
-  #         - Description 1.
-  #         - Description 2.
+      - institution: University of Wisconsin–Madison
+        location: Madison, WI, US
+        area: Biophysics
+        studyType: MS
+        start_date: 2021
+        end_date: 2023
 
-  #   Experience:
-  #     - company: Institute for Advanced Study, Princeton University
-  #       position: Professor of Theoretical Physics
-  #       location: Princeton University, NJ
-  #       start_date: 1933
-  #       end_date: 1955
-  #       summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-  #       highlights:
-  #         - Relativity
-  #         - Description 2.
+      - institution: Seoul National University
+        location: Seoul, South Korea
+        area: Biological Sciences
+        studyType: BS
+        start_date: 2014
+        end_date: 2021
+        highlights:
+          - Cum Laude
+          - Military service leave (Aug 2016 – Apr 2018)
 
-  #     - company: California Institute of Technology
-  #       position: Visiting Professor
-  #       location: Pasadena, California, US
-  #       start_date: 1933
-  #       end_date: 1933
-  #       highlights:
-  #         - Description 1.
-  #         - Description 2.
+    Experience:
+      - company: Van Lehn Group, University of Wisconsin–Madison
+        position: Graduate Student Researcher
+        location: Madison, WI, US
+        start_date: 2021
+        end_date: Present
+        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+        highlights:
+          - Developed physically grounded machine learning models combining geometric deep learning and molecular dynamics to predict and design biomolecular interfaces.
+          - Built scalable pipelines integrating simulation and machine learning to extract binding modes, conformational dynamics, energetics, and specificity of complex biomolecular systems.
+          - Applied enhanced sampling techniques (umbrella sampling, replica exchange, metadynamics) to investigate interaction energetics of biomolecules (e.g., protein, membrane, drug molecule).
 
-  #     - company: Kaiser Wilhelm Institute for Physics
-  #       position: Director
-  #       location: Berlin, Germany
-  #       start_date: 1917
-  #       end_date: 1933
+      - company: Laboratory of Biophysical Chemistry, SNU
+        position: Undergraduate Research Assistant
+        location: Seoul, South Korea
+        start_date: 2019-09
+        end_date: 2020-12
+        summary: Advisor: JunSeock Koh
+        highlights:
+          - Performed isothermal titration calorimetry (ITC) and X-ray crystallography to characterize binding patterns of intrinsically disordered proteins (IDPs)
 
-  #     - company: Karl-Ferdinand University
-  #       position: Professor of Theoretical Physics
-  #       location: Prague, Czechoslovakia
-  #       start_date: 1911
-  #       end_date: 1917
+      - company: Laboratory of Molecular Regenerative Medicine, SNU
+        position: Undergraduate Research Assistant
+        location: Seoul, South Korea
+        start_date: 2019-02
+        end_date: 2019-08
+        summary: Advisor: Jin-Hong Kim
 
-  #     - company: University of Zurich
-  #       position: Associate Professor of Theoretical Physics
-  #       location: Zurich, Switzerland
-  #       start_date: 1909
-  #       end_date: 1911
+      - company: Laboratory of Biophysical Chemistry, SNU
+        position: Undergraduate Research Assistant
+        location: Seoul, South Korea
+        start_date: 2015-12
+        end_date: 2016-01
+        summary: Advisor: Yeong-Jae Seok
 
-  #   Volunteer:
-  #     - company: People's Climate March
-  #       position: Lead Organizer
-  #       location: Zurich, Switzerland
-  #       start_date: 2014-04-01
-  #       end_date: 2015-07-01
-  #       summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-  #       highlights:
-  #         - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-  #         - "Men of the year 2014 by Time magazine"
+      - company: Korean MND Agency for KIA Recovery & Identification
+        url: https://www.withcountry.mil.kr/mbshome/mbs/withcountryeng/index.jsp
+        position: KIA (killed in action) Identification Agent
+        location: Seoul, South Korea
+        start_date: 2016-08
+        end_date: 2018-04
+        summary: performed identification of remains (gender, age, cause of death, racial identification, etc)
 
-  #   Awards:
-  #     - title: Nobel Prize in Physics
-  #       authors:
-  #         - "Royal Swedish Academy of Sciences"
-  #       date: 1921-11-01
-  #       awarder: Royal Swedish Academy of Sciences
-  #       url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-  #       summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    Volunteer:
+      - company: Korean Students & Scholars Association UW-Madison
+        position: Vice President & Treasury Officer
+        location: Madison, WI, US
+        start_date: 2024-08
+        end_date: 2025-07
 
-  #     - title: Max Planck Medal
-  #       authors:
-  #         - "German Physical Society"
-  #       date: 2029
-  #       awarder: German Physical Society
-  #       summary: Awarded for outstanding scientific achievement
+      - company: Korean Students & Scholars Association UW-Madison
+        position: Career Development Officer
+        location: Madison, WI, US
+        start_date: 2022-08
+        end_date: 2024-07
+        summmary: coordinated visiting recruit events of corporates from South Korea (Samsung, LG, Hanwha, Lotte) for Korean graduate students and post-docs of UW-Madison.
 
-  #   Publications:
-  #     - title: Zur Elektrodynamik bewegter Körper
-  #       authors:
-  #         - Albert Einstein
-  #       publisher: Annalen der Physik
-  #       releaseDate: 1905-06-30
-  #       url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-  #       summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - company: Madison Korean Tennis Club
+        position: Club Captain
+        location: Madison, WI, US
+        start_date: 2024-03
+        end_date: 2026-03
 
-  #     - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-  #       authors:
-  #         - Albert Einstein
-  #       publisher: Annalen der Physik
-  #       releaseDate: 1905-03-18
-  #       url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-  #       summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - company: ISMB 2022
+        url: https://www.iscb.org/ismb2022/home
+        position: Volunteer Staff
+        location: Madison, WI, US
+        date: 2022-07
 
-  #     - title: Die Grundlage der allgemeinen Relativitätstheorie
-  #       authors:
-  #         - Albert Einstein
-  #       publisher: Annalen der Physik
-  #       releaseDate: 1916-03-20
-  #       url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-  #       summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - company: UW-Madison 2022 Engineering Expo
+        position: Demonstration Table Staff
+        location: Madison, WI, US
+        date: 2022-04
 
-  #   Skills:
-  #     - name: Physics
-  #       level: Master
-  #       icon: fa-solid fa-hashtag
-  #       keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    Awards:
+      - title: KFAS Overseas PhD Scholarship
+        authors:
+          - "Korea Foundation for Advanced Studies"
+        start_date: 2021-07
+        end_date: 2026-06
+        awarder: Korea Foundation for Advanced Studies
+        url: https://eng.kfas.or.kr/
+        summary: Full fellowship covering living expenses for outstanding academic and research performance (5 yrs., $65,000, <40 awardees)
 
-  #   Languages:
-  #     - name: German
-  #       summary: "Native speaker"
+      - title: Sinyang Scholarship
+        authors:
+          - "Sinyang Cultural Foundation"
+        start_date: 2019-03
+        end_date: 2020-12
+        awarder: Sinyang Cultural Foundation
+        url: https://www.sinyang.org/default/
+        summary: Full tuition for academic excellence
 
-  #     - name: English
-  #       summary: "Fluent"
+      - title: Dean’s List
+        authors:
+          - "Seoul National University"
+        date: 2019-02
+        awarder: Seoul National University
+  
+      - title: Merit-based Scholarship
+        authors:
+          - "Seoul National University"
+        start_date: 2014-09
+        end_date: 2016-07
+        awarder: Seoul National University
 
-  #   Interests:
-  #     - name: Physics
-  #       icon: fa-solid fa-tag
-  #       keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
-  #   Certificates:
-  #     - name: Machine Learning
-  #       date: 2018-01-01
-  #       issuer: Stanford University
-  #       icon: fa-solid fa-location-dot
+    # Publications:
+    #   - title: Zur Elektrodynamik bewegter Körper
+    #     authors:
+    #       - Albert Einstein
+    #     publisher: Annalen der Physik
+    #     releaseDate: 1905-06-30
+    #     url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+    #     summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
 
-  #     - name: Quantum Computing
-  #       date: 2018-01-01
-  #       issuer: Stanford University
-  #       icon: fa-solid fa-tag
+    #   - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+    #     authors:
+    #       - Albert Einstein
+    #     publisher: Annalen der Physik
+    #     releaseDate: 1905-03-18
+    #     url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
+    #     summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
 
-  #     - name: Quantum Information
-  #       date: 2018-01-01
-  #       issuer: Stanford University
-  #       icon: fa-solid fa-envelope
+    #   - title: Die Grundlage der allgemeinen Relativitätstheorie
+    #     authors:
+    #       - Albert Einstein
+    #     publisher: Annalen der Physik
+    #     releaseDate: 1916-03-20
+    #     url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
+    #     summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
 
-  #   Projects:
-  #     - name: Quantum Computing
-  #       summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-  #       highlights:
-  #         - Quantum Teleportation
-  #         - Quantum Cryptography
-  #       start_date: 2018-01-01
-  #       end_date: 2018-01-01
+    # Skills:
+    #   - name: Physics
+    #     level: Master
+    #     icon: fa-solid fa-hashtag
+    #     keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
-  #   References:
-  #     - name: Professor John Doe
-  #       icon: fa-solid fa-laptop
-  #       reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    # Languages:
+    #   - name: German
+    #     summary: "Native speaker"
 
-  #     - name: Professor Jane Smith
-  #       icon: fa-solid fa-thumbtack
-  #       reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    #   - name: English
+    #     summary: "Fluent"
+
+    # Interests:
+    #   - name: Physics
+    #     icon: fa-solid fa-tag
+    #     keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+
+    # Certificates:
+    #   - name: Machine Learning
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-location-dot
+
+    #   - name: Quantum Computing
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-tag
+
+    #   - name: Quantum Information
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-envelope
+
+    # Projects:
+    #   - name: Quantum Computing
+    #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    #     highlights:
+    #       - Quantum Teleportation
+    #       - Quantum Cryptography
+    #     start_date: 2018-01-01
+    #     end_date: 2018-01-01
+
+    # References:
+    #   - name: Professor John Doe
+    #     icon: fa-solid fa-laptop
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+
+    #   - name: Professor Jane Smith
+    #     icon: fa-solid fa-thumbtack
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
