@@ -67,7 +67,7 @@ cv:
         location: Seoul, South Korea
         start_date: 2019-09
         end_date: 2020-12
-        summary: Advisor: JunSeock Koh
+        summary: "Advisor: JunSeock Koh"
         highlights:
           - Performed isothermal titration calorimetry (ITC) and X-ray crystallography to characterize binding patterns of intrinsically disordered proteins (IDPs)
 
@@ -76,14 +76,14 @@ cv:
         location: Seoul, South Korea
         start_date: 2019-02
         end_date: 2019-08
-        summary: Advisor: Jin-Hong Kim
+        summary: "Advisor: Jin-Hong Kim"
 
       - company: Laboratory of Biophysical Chemistry, SNU
         position: Undergraduate Research Assistant
         location: Seoul, South Korea
         start_date: 2015-12
         end_date: 2016-01
-        summary: Advisor: Yeong-Jae Seok
+        summary: "Advisor: Yeong-Jae Seok"
 
       - company: Korean MND Agency for KIA Recovery & Identification
         url: https://www.withcountry.mil.kr/mbshome/mbs/withcountryeng/index.jsp
@@ -105,7 +105,7 @@ cv:
         location: Madison, WI, US
         start_date: 2022-08
         end_date: 2024-07
-        summmary: coordinated visiting recruit events of corporates from South Korea (Samsung, LG, Hanwha, Lotte) for Korean graduate students and post-docs of UW-Madison.
+        summary: coordinated visiting recruit events of corporates from South Korea (Samsung, LG, Hanwha, Lotte) for Korean graduate students and post-docs of UW-Madison.
 
       - company: Madison Korean Tennis Club
         position: Club Captain
