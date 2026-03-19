@@ -7,5 +7,3 @@ event: "AIChE 2025"
 location: "Boston, MA"
 authors: "ByungUk Park, Reid C. Van Lehn"
 ---
-
-AIChE 2025

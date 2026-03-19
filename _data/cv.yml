@@ -111,8 +111,7 @@ cv:
       - title: KFAS Overseas PhD Scholarship
         authors:
           - "Korea Foundation for Advanced Studies"
-        start_date: 2021-07
-        end_date: 2026-06
+        date: 2021-07
         awarder: Korea Foundation for Advanced Studies
         url: https://eng.kfas.or.kr/
         summary: Full fellowship covering living expenses for outstanding academic and research performance (5 yrs., $65,000, <40 awardees)
@@ -120,8 +119,7 @@ cv:
       - title: Sinyang Scholarship
         authors:
           - "Sinyang Cultural Foundation"
-        start_date: 2019-03
-        end_date: 2020-12
+        date: 2019-03
         awarder: Sinyang Cultural Foundation
         url: https://www.sinyang.org/default/
         summary: Full tuition for academic excellence
@@ -135,8 +133,7 @@ cv:
       - title: Merit-based Scholarship
         authors:
           - "Seoul National University"
-        start_date: 2014-09
-        end_date: 2016-07
+        date: 2014-09
         awarder: Seoul National University
 
 
