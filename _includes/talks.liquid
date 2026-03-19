@@ -1,0 +1,127 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <p class="desc">{{ page.subtitle }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="clearfix">{{ content }}</div>
+
+    {% assign talks_sorted = site.talks | sort: "date" | reverse %}
+    {% assign oral_talks = talks_sorted | where: "type", "oral" %}
+    {% assign poster_talks = talks_sorted | where: "type", "poster" %}
+
+    {% if oral_talks.size > 0 %}
+      <h2 class="year">Oral Presentations</h2>
+      <ol class="bibliography">
+        {% for talk in oral_talks %}
+          <li>
+            <div class="row">
+              <div class="col-sm-2 abbr">
+                {% if talk.date %}
+                  <abbr class="badge">{{ talk.date | date: "%Y" }}</abbr>
+                {% endif %}
+              </div>
+
+              <div class="col-sm-10">
+                <div class="title">
+                  {% if talk.url %}
+                    <a href="{{ talk.url }}">{{ talk.title }}</a>
+                  {% else %}
+                    {{ talk.title }}
+                  {% endif %}
+                </div>
+
+                {% if talk.authors %}
+                  <div class="author">{{ talk.authors }}</div>
+                {% endif %}
+
+                <div class="periodical">
+                  {% if talk.event %}
+                    <em>{{ talk.event }}</em>
+                  {% endif %}
+                  {% if talk.location %}
+                    {% if talk.event %}, {% endif %}{{ talk.location }}
+                  {% endif %}
+                  {% if talk.date %}
+                    {% if talk.event or talk.location %}, {% endif %}
+                    {{ talk.date | date: "%b %-d, %Y" }}
+                  {% endif %}
+                </div>
+
+                {% if talk.venue %}
+                  <div class="periodical">{{ talk.venue }}</div>
+                {% endif %}
+
+                {% if talk.description %}
+                  <div class="links">
+                    {{ talk.description }}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ol>
+    {% endif %}
+
+    {% if poster_talks.size > 0 %}
+      <h2 class="year">Poster Presentations</h2>
+      <ol class="bibliography">
+        {% for talk in poster_talks %}
+          <li>
+            <div class="row">
+              <div class="col-sm-2 abbr">
+                {% if talk.date %}
+                  <abbr class="badge">{{ talk.date | date: "%Y" }}</abbr>
+                {% endif %}
+              </div>
+
+              <div class="col-sm-10">
+                <div class="title">
+                  {% if talk.url %}
+                    <a href="{{ talk.url }}">{{ talk.title }}</a>
+                  {% else %}
+                    {{ talk.title }}
+                  {% endif %}
+                </div>
+
+                {% if talk.authors %}
+                  <div class="author">{{ talk.authors }}</div>
+                {% endif %}
+
+                <div class="periodical">
+                  {% if talk.event %}
+                    <em>{{ talk.event }}</em>
+                  {% endif %}
+                  {% if talk.location %}
+                    {% if talk.event %}, {% endif %}{{ talk.location }}
+                  {% endif %}
+                  {% if talk.date %}
+                    {% if talk.event or talk.location %}, {% endif %}
+                    {{ talk.date | date: "%b %-d, %Y" }}
+                  {% endif %}
+                </div>
+
+                {% if talk.venue %}
+                  <div class="periodical">{{ talk.venue }}</div>
+                {% endif %}
+
+                {% if talk.description %}
+                  <div class="links">
+                    {{ talk.description }}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ol>
+    {% endif %}
+  </article>
+</div>

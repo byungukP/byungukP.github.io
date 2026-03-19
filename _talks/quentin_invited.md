@@ -1,8 +1,10 @@
 ---
-layout: post
+title: "Mechanistic and thermodynamic characterization of dynamic topology in an unassembled transmembrane protein"
 date: 2024-10-01
-inline: true
-related_posts: false
+type: oral
+event: "[Invited talk] Quentin Dudley Lab Seminar"
+location: "Madison, WI"
+authors: "ByungUk Park"
+abstract: ""
+url: ""
 ---
-
-[Invited talk] Mechanistic and thermodynamic characterization of dynamic topology in an unassembled transmembrane protein. UW-Madison Quentin Dudley Lab Seminar

@@ -1,8 +1,10 @@
 ---
-layout: post
+title: "Integrating Geometric Deep Learning and High-Throughput Molecular Simulations to Predict Protein-Membrane Binding Interfaces"
 date: 2025-03-01
-inline: true
-related_posts: false
+type: oral
+event: "[Invited talk] Jessi Cisewski Kehe Lab Seminar"
+location: "Madison, WI"
+authors: "ByungUk Park"
+abstract: ""
+url: ""
 ---
-
-[Invited talk] Integrating Geometric Deep Learning and High-Throughput Molecular Simulations to Predict Protein-Membrane Binding Interfaces. UW-Madison Cisewski Kehe Lab Seminar

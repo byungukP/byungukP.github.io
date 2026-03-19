@@ -110,8 +110,6 @@ collections:
       layout: post
     output: true
   talks:
-    defaults:
-      layout: post
     output: true
   projects:
     output: true
