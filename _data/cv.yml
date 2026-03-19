@@ -1,23 +1,13 @@
 cv:
-  name: ""
-  label: ""
+  name: "ByungUk Park"
   email: bpark74@wisc.edu
   location: Madison, WI
-  image: ""
   summary: I develop physically grounded machine learning methods for biomolecular systems, with interests spanning geometric deep learning, generative modeling, and molecular dynamics. My work focuses on characterizing protein conformational landscapes and designing physically feasible proteins under structural or functional constraints, grounded in rigorous simulation-based validation.
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
 
   address:
     street: ""
-    city: ""
-    region: ""
+    city: "Madison"
+    region: "WI"
     postalCode: ""
     countryCode: ""
 
@@ -25,13 +15,10 @@ cv:
     Education:
       - institution: University of Wisconsin–Madison
         location: Madison, WI, US
-        url: ""
         area: Biophysics
         studyType: PhD
         start_date: 2021
         end_date: 2026
-        score: ""
-        courses: ""
 
       - institution: University of Wisconsin–Madison
         location: Madison, WI, US
@@ -56,7 +43,7 @@ cv:
         location: Madison, WI, US
         start_date: 2021
         end_date: Present
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+        summary: "Advisor: Reid C. Van Lehn"
         highlights:
           - Developed physically grounded machine learning models combining geometric deep learning and molecular dynamics to predict and design biomolecular interfaces.
           - Built scalable pipelines integrating simulation and machine learning to extract binding modes, conformational dynamics, energetics, and specificity of complex biomolecular systems.
@@ -152,7 +139,7 @@ cv:
       - title: Merit-based Scholarship
         authors:
           - "Seoul National University"
-        start_date: 2014-09
+        date: 2014-09
         end_date: 2016-07
         awarder: Seoul National University
 
