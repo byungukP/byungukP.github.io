@@ -87,23 +87,17 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project.html";
-            },},{id: "talks-mechanistic-and-thermodynamic-characterization-of-dynamic-topology-in-an-unassembled-transmembrane-protein",
-          title: 'Mechanistic and thermodynamic characterization of dynamic topology in an unassembled transmembrane protein',
+            },},{id: "talks-",
+          title: '',
           description: "",
-          section: "Talks",handler: () => {
-              window.location.href = "/talks/aiche2024.html";
-            },},{id: "talks-mechanistic-and-thermodynamic-characterization-of-dynamic-topology-in-an-unassembled-transmembrane-protein",
-          title: 'Mechanistic and thermodynamic characterization of dynamic topology in an unassembled transmembrane protein',
+          section: "Talks",},{id: "talks-",
+          title: '',
           description: "",
-          section: "Talks",handler: () => {
-              window.location.href = "/talks/quentin_invited.html";
-            },},{id: "talks-integrating-geometric-deep-learning-and-high-throughput-molecular-simulations-to-predict-protein-membrane-binding-interfaces",
-          title: 'Integrating Geometric Deep Learning and High-Throughput Molecular Simulations to Predict Protein-Membrane Binding Interfaces...',
+          section: "Talks",},{id: "talks-",
+          title: '',
           description: "",
-          section: "Talks",handler: () => {
-              window.location.href = "/talks/jessi_invited.html";
-            },},{id: "talks-aiche-2025",
-          title: 'AIChE 2025',
+          section: "Talks",},{id: "talks-",
+          title: '',
           description: "",
           section: "Talks",},{
         id: 'social-email',
