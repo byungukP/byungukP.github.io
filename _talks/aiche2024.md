@@ -5,6 +5,4 @@ type: oral
 event: "AIChE 2024"
 location: "San Diego, CA"
 authors: "ByungUk Park, Reid C. Van Lehn"
-abstract: ""
-url: ""
 ---

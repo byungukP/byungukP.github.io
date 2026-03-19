@@ -5,6 +5,4 @@ type: oral
 event: "[Invited talk] Quentin Dudley Lab Seminar"
 location: "Madison, WI"
 authors: "ByungUk Park"
-abstract: ""
-url: ""
 ---
