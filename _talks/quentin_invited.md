@@ -7,3 +7,5 @@ event: "[Invited talk] Quentin Dudley Lab Seminar"
 location: "Madison, WI"
 authors: "ByungUk Park"
 ---
+
+[Invited talk] Quentin Dudley Lab Seminar @Madison, WI

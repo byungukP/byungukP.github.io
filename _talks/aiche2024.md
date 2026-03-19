@@ -7,3 +7,5 @@ event: "AIChE 2024"
 location: "San Diego, CA"
 authors: "ByungUk Park, Reid C. Van Lehn"
 ---
+
+AIChE 2024 @San Diego, CA
