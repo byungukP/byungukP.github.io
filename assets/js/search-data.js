@@ -4,28 +4,28 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+        },{id: "nav-talks",
+          title: "Talks",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/talks/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "CV up-to-date for 2026.03.",
+          description: "CV updated in March 2026.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -87,6 +87,26 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project.html";
+            },},{id: "talks-mechanistic-and-thermodynamic-characterization-of-dynamic-topology-in-an-unassembled-transmembrane-protein",
+          title: 'Mechanistic and thermodynamic characterization of dynamic topology in an unassembled transmembrane protein',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/aiche2024.html";
+            },},{id: "talks-mechanistic-and-thermodynamic-characterization-of-dynamic-topology-in-an-unassembled-transmembrane-protein",
+          title: 'Mechanistic and thermodynamic characterization of dynamic topology in an unassembled transmembrane protein',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/quentin_invited.html";
+            },},{id: "talks-integrating-geometric-deep-learning-and-high-throughput-molecular-simulations-to-predict-protein-membrane-binding-interfaces",
+          title: 'Integrating Geometric Deep Learning and High-Throughput Molecular Simulations to Predict Protein-Membrane Binding Interfaces...',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/jessi_invited.html";
+            },},{id: "talks-integrating-geometric-deep-learning-and-high-throughput-molecular-simulations-to-predict-protein-membrane-binding-interfaces",
+          title: 'Integrating Geometric Deep Learning and High-Throughput Molecular Simulations to Predict Protein-Membrane Binding Interfaces...',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/aiche2025.html";
             },},{
         id: 'social-email',
         title: 'email',
