@@ -1,0 +1,35 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    <li class="list-group-item">
+      {% if entry.title %}
+        <h6 class="title font-weight-bold mb-1">{{ entry.title }}</h6>
+      {% endif %}
+
+      <div class="mb-1">
+        {% if entry.awarder %}
+          <span>{{ entry.awarder }}</span>
+        {% endif %}
+        {% if entry.start_date %}
+          <span class="text-muted">
+            {% if entry.awarder %} | {% endif %}
+            {{ entry.start_date }}
+            {% if entry.end_date %}- {{ entry.end_date }}{% endif %}
+          </span>
+        {% elsif entry.date %}
+          <span class="text-muted">
+            {% if entry.awarder %} | {% endif %}
+            {{ entry.date }}
+          </span>
+        {% endif %}
+      </div>
+
+      {% if entry.summary %}
+        <div class="mb-1">{{ entry.summary }}</div>
+      {% endif %}
+
+      {% if entry.url %}
+        <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">Link</a>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

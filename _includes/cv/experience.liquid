@@ -1,0 +1,43 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    <li class="list-group-item">
+      {% if entry.position %}
+        <h6 class="title font-weight-bold mb-1">{{ entry.position }}</h6>
+      {% endif %}
+
+      <div class="mb-1">
+        {% if entry.company %}
+          <span>{{ entry.company }}</span>
+        {% elsif entry.organization %}
+          <span>{{ entry.organization }}</span>
+        {% endif %}
+        {% if entry.location %}
+          <span>, {{ entry.location }}</span>
+        {% endif %}
+      </div>
+
+      <div class="text-muted mb-1">
+        {% if entry.start_date %}
+          {{ entry.start_date }}
+        {% endif %}
+        {% if entry.end_date %}
+          - {{ entry.end_date }}
+        {% elsif entry.date %}
+          - {{ entry.date }}
+        {% endif %}
+      </div>
+
+      {% if entry.summary %}
+        <div class="mb-1">{{ entry.summary }}</div>
+      {% endif %}
+
+      {% if entry.highlights %}
+        <ul class="items mb-0">
+          {% for item in entry.highlights %}
+            <li><span class="item">{{ item }}</span></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
