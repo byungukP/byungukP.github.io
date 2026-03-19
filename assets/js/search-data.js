@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/talks/";
           },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "CV updated in March 2026.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "news-bioinspired-design-rules-for-flipping-across-the-lipid-bilayer-from-systematic-simulations-of-membrane-protein-segments-is-now-published-in-the-msde",
           title: 'Bioinspired design rules for flipping across the lipid bilayer from systematic simulations of...',
           description: "",
@@ -95,12 +102,10 @@ ninja.data = [{
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/jessi_invited.html";
-            },},{id: "talks-integrating-geometric-deep-learning-and-high-throughput-molecular-simulations-to-predict-protein-membrane-binding-interfaces",
-          title: 'Integrating Geometric Deep Learning and High-Throughput Molecular Simulations to Predict Protein-Membrane Binding Interfaces...',
+            },},{id: "talks-aiche-2025",
+          title: 'AIChE 2025',
           description: "",
-          section: "Talks",handler: () => {
-              window.location.href = "/talks/aiche2025.html";
-            },},{
+          section: "Talks",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
