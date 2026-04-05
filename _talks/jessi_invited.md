@@ -1,6 +1,6 @@
 ---
 title: "Integrating Geometric Deep Learning and High-Throughput Molecular Simulations to Predict Protein-Membrane Binding Interfaces"
-date: 2025-03-01
+date: 2025-03-07
 type: oral
 inline: true
 event: "[Invited talk] Jessi Cisewski Kehe Lab Seminar"
