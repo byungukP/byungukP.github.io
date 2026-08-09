@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 cv_pdf: /assets/pdf/CV_BPark.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
-description: CV updated in March 2026.
+description: CV updated in August 2026.
 toc:
   sidebar: left
 ---
