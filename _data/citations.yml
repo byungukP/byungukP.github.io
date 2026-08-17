@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-17'
 papers:
   TUZ7Z7QAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -17,6 +17,10 @@ papers:
     citations: 0
     title: Bioinspired design rules for flipping across the lipid bilayer from systematic simulations of membrane protein segments
     year: '2025'
+  TUZ7Z7QAAAAJ:W7OEmFMy1HYC:
+    citations: 0
+    title: Scalable Extraction of Information on Protein-Protein Interactions using Topological Data Analysis
+    year: '2026'
   TUZ7Z7QAAAAJ:Y0pCki6q_DkC:
     citations: 0
     title: Revealing interactions between glutathione peroxidase 4 and phosphoinositides
