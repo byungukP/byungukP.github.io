@@ -2,7 +2,7 @@ cv:
   name: "ByungUk Park"
   email: bpark74@wisc.edu
   location: Madison, WI
-  
+
   address:
     city: "Madison"
     region: "WI"
@@ -129,13 +129,12 @@ cv:
           - "Seoul National University"
         date: 2019-02
         awarder: Seoul National University
-  
+
       - title: Merit-based Scholarship
         authors:
           - "Seoul National University"
         date: 2014-09
         awarder: Seoul National University
-
 
     # Publications:
     #   - title: Zur Elektrodynamik bewegter Körper
