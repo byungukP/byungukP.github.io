@@ -114,6 +114,9 @@ ninja.data = [{
           section: "Talks",},{id: "talks-aiche-2025-boston-ma",
           title: 'AIChE 2025 @Boston, MA',
           description: "",
+          section: "Talks",},{id: "talks-invited-talk-biophysics-colloquium",
+          title: '[Invited talk] Biophysics Colloquium',
+          description: "",
           section: "Talks",},{
         id: 'social-email',
         title: 'email',
